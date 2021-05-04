@@ -33,7 +33,8 @@ server = app.server
 app.layout = html.Div(
     [
         html.H1(
-            'Immunization Dashboard',
+            ##'Immunization Dashboard',
+            "THIS SHOULDN'T BE SEEN IF THE CI PIPELINE IS BROKEN",
             style={'text-align': 'center'}
         ),
         html.Div([
