@@ -1,4 +1,5 @@
 import dash
+import dash_auth
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
@@ -16,6 +17,11 @@ new_columns = {
     'Country': 'country'
 }
 
+
+VALID_USERNAME_PASSWORD_PAIRS = {
+    'hello': 'world'
+}
+
 df.columns = df.iloc[0].values
 df = df[1:]
 df = df.fillna(0).copy()
@@ -28,13 +34,17 @@ df.rename(columns=new_columns, inplace=True)
 
 app = dash.Dash()
 
+auth = dash_auth.BasicAuth(
+    app,
+    VALID_USERNAME_PASSWORD_PAIRS
+)
+
 server = app.server
 
 app.layout = html.Div(
     [
         html.H1(
-            ##'Immunization Dashboard',
-            "THIS SHOULDN'T BE SEEN IF THE CI PIPELINE IS BROKEN",
+            'Immunization Dashboard',
             style={'text-align': 'center'}
         ),
         html.Div([
