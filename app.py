@@ -3,6 +3,7 @@ import dash_auth
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
+import os
 
 import requests
 import plotly.graph_objects as go
@@ -19,7 +20,7 @@ new_columns = {
 
 
 VALID_USERNAME_PASSWORD_PAIRS = {
-    'hello': 'world'
+    os.environ['USERNAME']: os.environ['PASSWORD']
 }
 
 df.columns = df.iloc[0].values
