@@ -39,9 +39,10 @@ class MultiApp:
         })
 
     def run(self):
+        st.sidebar.title('Adam Fletcher, Ph.D')
         app = st.sidebar.radio(
-            'Go To',
-            self.apps,
+            label='About Me',
+            options=self.apps,
             format_func=lambda app: app['title'])
 
         app['function']()
