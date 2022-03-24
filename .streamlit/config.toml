@@ -1,6 +1,6 @@
 [theme]
-base='light'
-primaryColor="purple"
-backgroundColor="lightgrey"
-secondaryBackgroundColor="#e8eef9"
-textColor="black"
+base = 'light'
+#primaryColor="purple"
+#backgroundColor="lightgrey"
+#secondaryBackgroundColor="#e8eef9"
+#textColor="black"

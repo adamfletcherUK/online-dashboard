@@ -1,15 +1,16 @@
 import streamlit as st
 
-def app():
+def write():
     st.title('My Arcade Machine')
-    c1, c2 = st.columns((2, 1))
+    column_1, column_2 = st.columns((2, 1))
 
-    with c1:
+    with column_1:
         st.header('All Things Retro-gaming')
-        page_file= open('./docs/arcade/retro_games.md', 'r')
-        st.markdown(page_file.read())
+        with open('./content/arcade/retro_games.md', 'r',
+                  encoding="utf-8") as file_contents:
+            st.markdown(file_contents.read())
 
-    with c2:
+    with column_2:
         st.image('./data/images/TNMT_arcade.png', width=300)
 
     # st.header('Retro Game Projects')
