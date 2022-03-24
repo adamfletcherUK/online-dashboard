@@ -11,7 +11,7 @@ import src.pages.machine_learning
 import src.pages.skills
 from cv_downloader import sidebar_cv_downloader
 
-st.set_page_config(layout='wide', page_title="Adam Fletcher")
+st.set_page_config(layout='wide', page_title="Adam Fletcher, Ph.D")
 
 PAGES = {
     "Home": src.pages.home,
@@ -27,6 +27,7 @@ PAGES = {
 
 def main():
     """Main function of the App"""
+    st.sidebar.image('./data/images/me_and_nat_cropped.jpg')
     st.sidebar.title("Navigation")
     selection = st.sidebar.radio("Go to", list(PAGES.keys()))
 
