@@ -4,10 +4,13 @@
 
 test:
 	python src/tests/startup_test.py
-	python src/tests/test_streamlit.py
+#	python src/tests/test_streamlit.py
 
 requirements:
 #	python -m  pipreqs.pipreqs . --force
 	pip freeze > requirements.txt
+
+deploy:
+	sh setup.sh && streamlit run app.py
 
 
