@@ -1,6 +1,8 @@
 import streamlit as st
 
+
 def write():
+    """Render the Arcade Page"""
     st.title('My Arcade Machine')
     column_1, column_2 = st.columns((2, 1))
 

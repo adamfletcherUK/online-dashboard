@@ -1,10 +1,11 @@
 """Main module for the streamlit app"""
-import streamlit as st
 import awesome_streamlit as ast
-import src.pages.deployment
-import src.pages.home
-import src.pages.exp
+import streamlit as st
+
 import src.pages.arcade
+import src.pages.deployment
+import src.pages.exp
+import src.pages.home
 import src.pages.machine_learning
 from cv_downloader import sidebar_cv_downloader
 
@@ -35,7 +36,7 @@ def main():
     sidebar_cv_downloader()
     st.sidebar.title("About")
     st.sidebar.info(
-        """If you are interested in the codebase for this multipage Streamlit site, it's on 
+        """If you are interested in the codebase for this multi-page Streamlit site, it's on 
         [github](https://github.com/adamfletcherUK/online-dashboard).""")
 
 
