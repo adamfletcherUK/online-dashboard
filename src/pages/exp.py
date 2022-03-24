@@ -4,7 +4,7 @@ import streamlit as st
 
 
 def trim_filename(input_filename: str, chars_to_skip: int) -> str:
-    """Trims a filename string by skipping the first few characters:
+    """Trims a filename string by skipping the first n characters and the last 3 characters:
             Parameters:
                     input_filename (str): the original name of the file
                     chars_to_skip (str): the number of characters to skip
