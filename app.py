@@ -35,10 +35,8 @@ def main():
         But the webpage serves to act as an expanded version of my skill set & experience """)
     sidebar_cv_downloader()
     st.sidebar.title("About")
-    st.sidebar.info(
-        """If you are interested in the codebase for this multi-page Streamlit site, it's on 
-        [github](https://github.com/adamfletcherUK/online-dashboard).""")
-
+    st.sidebar.info("If you are interested in the codebase for this multi-page Streamlit site, \n"
+                    "it's on [github](https://github.com/adamfletcherUK/online-dashboard).")
 
 if __name__ == "__main__":
     main()
