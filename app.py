@@ -10,7 +10,6 @@ import src.pages.machine_learning
 from cv_downloader import sidebar_cv_downloader
 
 st.set_page_config(layout='wide', page_title="Adam Fletcher")
-ast.core.services.other.set_logging_format()
 
 PAGES = {
     "Home": src.pages.home,
