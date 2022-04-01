@@ -17,11 +17,14 @@ people.
 
 There is integration to deploy Test, Dev and Prod environments.
 
-Currently I have set the Dev environment to automatically redeploy following a codebase commit to gitub.
+Currently I have set the Staging environment to automatically redeploy following
+a codebase commit to the main branch on gitub.
 
-Prod is protected to particular releases that I push manually when I have happy with Dev.
+Prod is protected to particular releases that I push manually when I have happy
+with Dev.
 
-Test environments are typically used to deploy branches to look at new features.
+There are two dev environments, which I use to test branches with new features -
+they are currently manually deployed.
 
 ## Testing and CI/CD
 
@@ -29,9 +32,15 @@ Test environments are typically used to deploy branches to look at new features.
 
 The webapp also contains some testing and CI/CD
 
-As mentioned about deployment to Dev is automatically done when code is pushed to GitHub.
+For build testing and running the code bases test suit I have
+utilised [Travis CI](https://www.travis-ci.com/)
+which builds a test environment and runs the test suit whenever I commit to
+Github.
 
-For build testing and running the code bases test suit I have utilised [Travis CI](https://www.travis-ci.com/)
-which builds a test environment and runs the test suit.
+NB. As I am just starting up the website, the test suits is limited and
+automatically passes.
 
-NB. As I am just starting up the website, the test suits is limited and automatically passes. 
+### Code Linting
+
+I am currently implementing code linting to improve the readability of the
+codebase, as well as instilling software best practices to myself.
