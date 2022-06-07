@@ -1,12 +1,17 @@
-## Professional Experience
+## Data in Business
 
-I have also worked within Industrial Science, developing non-invasive blood
-tests for expectant mothers to detect chromosomal abnormalities (such as Down
-Syndrome), utilising Machine Learning to assess the risk of an abnormality in
-the fetus.
+As a Data Scientist, I worked for multiple clients helping them solve problems 
+and make better decisions with data.
 
-Since transitioning into a Data Scientist of business, I have worked for clients
-helping them solve problems with data, from developing end-to-end ETL and
-feature engineering pipelines with model training and automated deployment, a
-multitude of predictive machine learning models, providing bespoke analytics and
-generally improving a businesses ability to make data-driven business decisions.
+I have a wealth of experience building predictive machine learning models, including
+clustering, regression, classification, natural language processing an addition to 
+utilising a plethora of advanced analytical and statstical approaches to gain insight 
+from data.
+
+I also have a large amount of experience serving machine learning applications to 
+end-users either through deploying APIs or Dashboard and even building a full
+end-to-end ETL, feature engineering and model training pipeline in a production 
+setting.
+
+For a more expansive review of my Data Science skillset, check out the Skills 
+Overview section

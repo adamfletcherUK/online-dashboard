@@ -11,12 +11,12 @@ def write():
     col1, col2, col3 = st.columns(3)
 
     with col1:
-        with open('./content/home/academic.md', 'r',
+        with open('./content/home/professional.md', 'r',
                   encoding="utf-8") as file_contents:
             st.markdown(file_contents.read())
 
     with col2:
-        with open('./content/home/professional.md', 'r',
+        with open('./content/home/academic.md', 'r',
                   encoding="utf-8") as file_contents:
             st.markdown(file_contents.read())
 

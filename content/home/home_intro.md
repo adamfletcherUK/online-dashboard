@@ -4,6 +4,8 @@
 
 Welcome to my Streamlit site!
 
-I am an enthusiastic Data Scientist with experience in both academic and
-business settings, I am an avid tinkerer and love sports.
+I am a Data Scientist, former Cancer Researcher and general Geek.
 
+I have data science experience in both business and academic settings, check out
+the Case Studies and Education tabs for more information, or below for a quick
+overview.

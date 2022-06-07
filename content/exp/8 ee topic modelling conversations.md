@@ -1,4 +1,7 @@
 ### Topic Modelling Call Centre Transcripts to Determine Common Conversations
+#### WIP
+
+The client had a large amount of call centre transcript 
 
 - The client wanted to surface common questions being asked in their call
   centre, to better serve customers.

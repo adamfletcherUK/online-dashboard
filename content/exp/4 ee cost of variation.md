@@ -1,4 +1,5 @@
 ### Reducing the cost of variation in providing a service:
+#### WIP
 
 - The client wanted to restructure their national pricing model. But each
   franchise provided the same service with minor changes, resulting in

@@ -1,4 +1,5 @@
 ### Modelling the cost of debt for delayed payment terms in commercial projects:
+#### WIP
 
 - The client wanted to understand how the debt resulting from delayed payments
   terms affected the final profit of a project and company liquidity.
