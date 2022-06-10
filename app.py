@@ -10,6 +10,7 @@ import src.pages.home
 import src.pages.machine_learning
 import src.pages.personal
 import src.pages.skills
+# import src.pages.exp
 from cv_downloader import sidebar_cv_downloader
 
 st.set_page_config(layout='wide', page_title="Adam Fletcher, Ph.D")
@@ -19,7 +20,7 @@ PAGES = {
     "Skills Overview": src.pages.skills,
     "Case Studies": src.pages.case_study,
     "Education": src.pages.education,
-    # "Skill, Experience & Education": src.pages.exp
+    # "Skill, Experience & Education": src.pages.exp,
     "Machine Learning": src.pages.machine_learning,
     "Personal": src.pages.personal,
     "Arcade Machine": src.pages.arcade,
@@ -45,7 +46,7 @@ def main():
     st.sidebar.info(
         "If you are interested in the codebase for this multi-page Streamlit site, \n"
         "it's on [Github.com](https://github.com/adamfletcherUK/online-dashboard). \n\n"
-        "[![Build Status](https://travis-ci.com/adamfletcherUK/online-dashboard.svg?branch=main)](https://travis-ci.com/adamfletcherUK/online-dashboard)")
+        "[![Build Status](https://travis-ci.com/adamfletcherUK/online-dashboard.svg?branch=main)](https://travis-ci.com/adamfletcherUK/online-dashboard)")  # pylint: disable=line-too-long
 
 
 if __name__ == "__main__":

@@ -2,8 +2,6 @@ awesome-streamlit
 gunicorn
 multidict
 pandas
-pylint
-pytest
 PyYAML
 streamlit
 Werkzeug
